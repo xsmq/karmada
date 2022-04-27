@@ -15,6 +15,8 @@ func main() {
 	}
 }
 
+type initNode struct {}
+
 func runAggregatedApiserverCmd() error {
 	logs.InitLogs()
 	defer logs.FlushLogs()
